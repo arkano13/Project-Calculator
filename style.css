@@ -1,0 +1,104 @@
+
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.header{
+height: 5px;
+}
+
+.calculatorContainer{
+   height: 600px;
+   background-color:#0a141f;
+   width:450px;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+
+}
+
+.screen{
+    background-color: white;
+    width: 400px;
+    height: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: end;
+    padding: 10px;
+    font-family: "Righteous", sans-serif;
+    font-size: 50px;
+    }
+
+.buttons{ 
+display: flex;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0 10px 20px;
+    height: 400px;
+    width: 300px;
+    gap: 10px;
+}
+
+.num{
+    
+    height: 90px;
+    width: 90px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color:lightslategrey;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+}
+
+.op{
+    border-radius: 15px;
+    height: 90px;
+    width: 90px;
+    background-color:lightslategrey;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 20px;
+
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 20px 0px;
+    height: 470px;
+    width: 90px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.eraseBtn{
+    background-image: url(image/eraseBtn.png);
+    background-position: center;
+    background-size: 140px 140px;
+    height: 80px;
+    width: 150px;
+    background-color: #0a141f;
+    color: white;
+    border: none;
+
+
+}
+.erase{
+    display: flex;
+    justify-content: flex-end;
+    width: 260px;
+}

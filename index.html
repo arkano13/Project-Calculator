@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odin calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/image/calculator icon.png" type="icon image">
+</head>
+<body>
+    <div class="header"></div>
+
+        <div class="principalContainer">
+            <div class="calculatorContainer">
+                <div class="screen" id="screen"></div>
+                <div>
+             
+
+                <div class="buttons">
+                    
+                    <div class="numbers"> +
+
+                        <div class="erase">
+                            <button class="eraseBtn" id="eraseBtn">
+                             
+                            </button>
+                        </div>
+                        <div >
+                        <button class="num" id="num"   value="7" onclick="('7')">7</button>
+                        <button class="num" id="num"   value="8" onclick="('8')" >8</button>
+                        <button class="num" id="num" value="9" onclick="('9')" >9</button>
+                        <button class="num" id="num"  value="4" onclick="('4')" >4</button>
+                        <button class="num" id="num"  value="5" onclick="('5')" >5</button>
+                        <button class="num" id="num"   value="6" onclick="('6')" >6</button>
+                        <button class="num" id="num" value="1" onclick="('1')" >1</button>
+                        <button class="num" id="num" value="2" onclick="('2')" >2</button>
+                        <button class="num" id="num"  value="3" onclick="('3')" >3</button>
+                        <button class="num point" id="num" value="." onclick="('.')" >.</button>
+                        <button class="num" id="num"  value="0" onclick="('0')">0</button>
+                        <button class="num" id="C"  >c</button>
+                      </div>
+                    </div>
+
+                    <div class="operations">
+                        <button class="op" id="operationsBtn" value=+   onclick="('+')">+</button>
+                        <button class="op" id="operationsBtn" value="-" onclick="('-')" >-</button>
+                        <button class="op" id="operationsBtn" value="*" onclick="('*')" >x</button>
+                        <button class="op" id="operationsBtn" value="/" onclick="('/')">/</button>
+                        <button class="op" id="equal" >=</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="header"> </div>
+        <script src="script.js"></script>
+</body>
+</html>
